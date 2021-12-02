@@ -1,0 +1,25 @@
+{
+  "name": "authenticationandauthorisation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakash-Naykude/Authenticationandauthorisation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aakash-Naykude/Authenticationandauthorisation/issues"
+  },
+  "homepage": "https://github.com/Aakash-Naykude/Authenticationandauthorisation#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.14"
+  }
+}
